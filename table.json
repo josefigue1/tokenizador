@@ -1,0 +1,46 @@
+{
+    "tokens": [
+        {
+            "token": "ARTICULO",
+            "patron": ["\\bel\\b", "\\bla\\b", "\\blos\\b", "\\blas\\b", "\\bun\\b", "\\buna\\b", "\\bunos\\b", "\\bunas\\b"],
+            "lexemas": [],
+            "posiciones": []
+        },
+        {
+            "token": "SUSTANTIVO",
+            "patron": ["\\b\\w+(a|as|o|os|ión|dad|tud|umbre)\\b"],
+            "lexemas": [],
+            "posiciones": []
+        },
+        {
+            "token": "VERBO",
+            "patron": ["\\b\\w+(ar|er|ir|ando|iendo|ado|ido|ará|erá|irá|aría|ería|iría)\\b"],
+            "lexemas": [],
+            "posiciones": []
+        },
+        {
+            "token": "ADJETIVO",
+            "patron": ["\\b\\w+(a|o|as|os)\\b"],
+            "lexemas": [],
+            "posiciones": []
+        },
+        {
+            "token": "ADVERBIO",
+            "patron": ["\\b\\w+mente\\b"],
+            "lexemas": [],
+            "posiciones": []
+        },
+        {
+            "token": "OTROS",
+            "patron": [],
+            "lexemas": [],
+            "posiciones": []
+        },
+        {
+            "token": "ERROR_LX",
+            "patron": [],
+            "lexemas": [],
+            "posiciones": []
+        }
+    ]
+}
